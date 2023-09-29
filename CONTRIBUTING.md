@@ -1,4 +1,5 @@
 # Contributing to the AzSentinelDoc
+
 Because Open Source plays a major part in how products are build,
 I see it as a matter of course to give the same effort back to our
 community by creating extensible and easy-to-use software.
