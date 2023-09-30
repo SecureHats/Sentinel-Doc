@@ -87,7 +87,11 @@ AliasesToExport = '*'
 # ModuleList = @()
 
 # List of all files packaged with this module
-# FileList = @()
+FileList = 'Private\Get-AccessToken.ps1',
+    'Private\Invoke-AzSentinelDoc.ps1',
+    'Private\Format-Result.ps1',
+    'Private\Write-Message.ps1',
+    'Private\Get-LogAnalyticsWorkspace.ps1'
 
 # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
 PrivateData = @{
@@ -95,7 +99,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags       = @("Sentinel", "Microsoft", "Azure", "WorkspaceManager", "ARM")
+        Tags       = @("Sentinel", "Microsoft", "Azure", "Documentation", "ARM")
 
         # A URL to the license for this module.
         # LicenseUri = ''
